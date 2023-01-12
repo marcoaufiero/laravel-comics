@@ -14,6 +14,7 @@
     </header>
     
     <main>
+        @yield('main-box')
         @include('components.blue-section')
     </main>
     
