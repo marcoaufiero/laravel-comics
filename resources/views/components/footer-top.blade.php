@@ -41,7 +41,7 @@
                     <li><a href="">MAD Magazine</a></li>
                     <li><a href="">DC Kids</a></li>
                     <li><a href="">DC Universe</a></li>
-                    <li><a href="">Dc Power Visa</a></li>
+                    <li><a href="">DC Power Visa</a></li>
                 </ul>
             </div>
         </div>

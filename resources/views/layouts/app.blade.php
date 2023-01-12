@@ -19,6 +19,7 @@
     
     <footer>
         @include('components.footer-top')
+        @include('components.footer-bottom')
     </footer>
     
 </body>
