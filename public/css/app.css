@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;
+
+400;500;600;700;800&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header .blue-bar {
+  background-color: #0282F9;
+}
+
+header .blue-bar div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .blue-bar div span {
+  color: white;
+  padding: 5px 0;
+  margin-left: 70px;
+}
+
+header nav {
+  width: 70%;
+  margin-inline: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 0 15px;
+  font-weight: 600;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 60px;
+}
+
+header nav ul li a:hover {
+  color: #0282F9;
+  cursor: pointer;
+  box-shadow: 0px 4px 0 #0282F9;
+}
+
+header nav .search-bar {
+  border: none;
+  border-bottom: 1px solid #0282F9;
+}
+
+.width-70 {
+  width: 70%;
+  margin-inline: auto;
+}
+
+.hero {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+
+.sect-settings {
+  padding: 50px 0;
+  background-color: #0282F9;
+}
+
+.container {
+  width: 70%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-button {
+  display: flex;
+  align-items: center;
+}
+
+.menu-button:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.menu-button img {
+  height: 50px;
+  margin: 0 10px;
+}
+
+.menu-button .size-fix {
+  width: 50px;
+}
+
+.menu-button span {
+  color: white;
+}
+
+.sect-settings-1 {
+  background: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.container {
+  width: 70%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .dc-logo-box {
+  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+}
+
+.footer-menu {
+  margin: 0 20px;
+  padding: 50px 0;
+}
+
+.footer-menu h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-menu ul {
+  margin-bottom: 20px;
+}
+
+.footer-menu ul li {
+  list-style: none;
+  line-height: 20px;
+}
+
+.footer-menu ul li:hover {
+  text-decoration: underline;
+}
+
+.footer-menu ul li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: grey;
+}
+

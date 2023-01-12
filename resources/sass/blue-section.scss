@@ -1,0 +1,35 @@
+.sect-settings{
+    padding: 50px 0;
+    background-color: #0282F9;
+}
+
+.container{
+    width: 70%;
+    margin-inline: auto; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-button{
+    display: flex;
+    align-items: center;
+
+    &:hover{
+        cursor: pointer;
+        scale: 1.1;
+    }
+    
+    img{
+        height: 50px;
+        margin: 0 10px;
+    }
+
+    .size-fix{
+        width: 50px;
+    }
+
+    span{
+        color: white;
+    }
+}

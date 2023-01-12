@@ -1,0 +1,54 @@
+
+    .sect-settings-1{
+        background: url("../../public/img/footer-bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .d-flex{
+        display: flex;
+    }
+
+    .container{
+        width: 70%;
+        margin-inline: auto; 
+        display: flex;
+        justify-content: space-between;
+
+        .dc-logo-box{
+            background-image: url("../../public/img/dc-logo-bg.png");
+            background-size: cover;
+            background-position: center;
+            width: 40%;
+        }
+    }
+
+    .footer-menu{
+        margin: 0 20px;
+        padding: 50px 0;
+
+        h3{
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        ul{
+            margin-bottom: 20px;
+
+            li{
+            list-style: none;
+            line-height: 20px;
+
+            &:hover{
+                text-decoration: underline;
+            }
+            
+                a{
+                    text-decoration: none;
+                    font-size: 0.8rem;
+                    color: grey;
+                }
+            }
+        }
+        
+    }
