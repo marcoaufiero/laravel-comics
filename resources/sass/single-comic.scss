@@ -5,10 +5,159 @@
         background-color: #0282F9;
     }
 
-    .single-comic-box{
+    .single-comic-box-top{
         width: 60%;
         margin-inline: auto;
-        height: 500px;
+        position: relative;
+        
+        .comic-picture-box{
+            aspect-ratio: 2/3;
+            border: 1px solid white;
+            width: 198px;
+            height: 300px;
+            position: absolute;
+            top: -370px;
+            left: 0;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        .comic-info-top{
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 0;
+
+            .comic-info-top-left{
+                width: 70%;
+                
+                .green-box{
+                    background-color: #55BA59;
+                    display: flex;
+                    margin-top: 20px;
+                    
+                    .green-box-left{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 75%; 
+                        border-right: 1px solid grey;
+                        padding: 0 20px;
+                        
+                        span{
+                            color: white;
+                            font-weight: 600;
+                            padding: 15px 0;
+                        }
+                    }
+
+                    .green-box-right{
+                        width: 25%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        span{
+                            color: white;
+                            font-weight: 600;
+                            padding: 10px 0;
+                        }
+                    }
+                }
+
+                .description-box{
+                    margin-top: 20px;
+
+                    p{
+                        color: grey;
+                        line-height: 1.5rem;
+                        font-weight: 600;
+                    }
+                }
+
+            }
+
+            .comic-info-top-right{
+                width: 25%;
+            }
+        }
     }
     
+    .single-comic-box-bottom{
+        background-color: #F6F6F6;
+        padding-bottom: 100px;
+        border-top: 1px solid lightgrey;
+        
+        .comic-details-box{
+            width: 60%;
+            margin-inline: auto;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+
+            .comic-details-left{
+                width: 45%;
+
+                .detail-1{
+                    width: 30%;
+                    font-weight: 600;
+                }
+
+                .detail-2{
+                    width: 70%;
+                }
+
+                .comic-art{
+                    border-top: 1px solid lightgrey;
+                    border-bottom: 1px solid lightgrey;
+                    margin-top: 20px;
+                    padding: 10px 0;
+                    display: flex;
+                }
+
+                .comic-writers{
+                    border-bottom: 1px solid lightgrey;
+                    padding: 10px 0;
+                    display: flex;
+                }
+            }
+
+            .comic-details-right{
+                width: 45%;
+
+                .detail-1{
+                    width: 30%;
+                    font-weight: 600;
+                }
+
+                .detail-2{
+                    width: 70%;
+                }
+
+                .comic-details-series{
+                    padding: 10px 0;
+                    border-top: 1px solid lightgrey;
+                    border-bottom: 1px solid lightgrey;
+                    margin-top: 20px;
+                    display: flex;
+
+                    .detail-2{
+                        color: #0282F9;
+                    }
+                }
+
+                .comic-details-price{
+                    padding: 10px 0;
+                    border-bottom: 1px solid lightgrey;
+                    display: flex;
+                }
+
+                .comic-details-date{
+                    padding: 10px 0;
+                    border-bottom: 1px solid lightgrey;
+                    display: flex;
+                }
+            }
+        }
+    }
 }

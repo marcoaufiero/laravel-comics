@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;
-
-400;500;600;700;800&display=swap);* {
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,18 +11,15 @@ body {
 header .blue-bar {
   background-color: #0282F9;
 }
-
 header .blue-bar div {
   display: flex;
   justify-content: flex-end;
 }
-
 header .blue-bar div span {
   color: white;
   padding: 5px 0;
   margin-left: 70px;
 }
-
 header nav {
   width: 70%;
   margin-inline: auto;
@@ -33,31 +28,26 @@ header nav {
   justify-content: space-between;
   align-items: center;
 }
-
 header nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 header nav ul li {
   list-style: none;
   padding: 0 15px;
   font-weight: 600;
 }
-
 header nav ul li a {
   text-decoration: none;
   color: black;
   padding-bottom: 60px;
 }
-
 header nav ul li a:hover {
   color: #0282F9;
   cursor: pointer;
   box-shadow: 0px 5px 0 #0282F9;
 }
-
 header nav .search-bar {
   border: none;
   border-bottom: 1px solid #0282F9;
@@ -69,7 +59,7 @@ header nav .search-bar {
 }
 
 .hero {
-  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-image: url("../img/jumbotron.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 550px;
@@ -92,21 +82,17 @@ header nav .search-bar {
   display: flex;
   align-items: center;
 }
-
 .menu-button:hover {
   cursor: pointer;
   scale: 1.1;
 }
-
 .menu-button img {
   height: 50px;
   margin: 0 10px;
 }
-
 .menu-button .size-fix {
   width: 50px;
 }
-
 .menu-button span {
   color: white;
 }
@@ -123,7 +109,6 @@ header nav .search-bar {
   align-items: center;
   position: relative;
 }
-
 .container .series-label {
   padding: 15px;
   background-color: #0282F9;
@@ -134,7 +119,6 @@ header nav .search-bar {
   color: white;
   font-weight: 600;
 }
-
 .container .comics-box {
   display: flex;
   flex-wrap: wrap;
@@ -147,7 +131,6 @@ header nav .search-bar {
   justify-content: center;
   padding-bottom: 20px;
 }
-
 .load-more .load-more-btn {
   padding: 10px 30px;
   background-color: #0282F9;
@@ -155,7 +138,6 @@ header nav .search-bar {
   font-weight: 600;
   font-size: 0.8rem;
 }
-
 .load-more .load-more-btn:hover {
   cursor: pointer;
   scale: 1.1;
@@ -171,23 +153,19 @@ h2 {
   margin-top: 10px;
   padding: 20px;
 }
-
 .card a {
   text-decoration: none;
 }
-
 .card:hover {
   cursor: pointer;
   scale: 1.3;
   transition: 0.3s;
 }
-
 .card .img-box {
   width: 100%;
   aspect-ratio: 1/1;
   overflow: hidden;
 }
-
 .card .img-box img {
   width: 100%;
 }
@@ -198,7 +176,7 @@ h5 {
 }
 
 .sect-settings-1 {
-  background: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background: url("../img/footer-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -213,9 +191,8 @@ h5 {
   display: flex;
   justify-content: space-between;
 }
-
 .container .dc-logo-box {
-  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-image: url("../img/dc-logo-bg.png");
   background-size: cover;
   background-position: center;
   width: 40%;
@@ -225,25 +202,20 @@ h5 {
   margin: 0 20px;
   padding: 50px 0;
 }
-
 .footer-menu h3 {
   color: white;
   margin-bottom: 10px;
 }
-
 .footer-menu ul {
   margin-bottom: 20px;
 }
-
 .footer-menu ul li {
   list-style: none;
   line-height: 20px;
 }
-
 .footer-menu ul li:hover {
   text-decoration: underline;
 }
-
 .footer-menu ul li a {
   text-decoration: none;
   font-size: 0.8rem;
@@ -262,7 +234,6 @@ h5 {
   justify-content: space-between;
   align-items: center;
 }
-
 .container button {
   padding: 10px;
   background-color: #303030;
@@ -270,22 +241,18 @@ h5 {
   color: white;
   font-size: 1.1rem;
 }
-
 .container button:hover {
   cursor: pointer;
   background-color: #0282F9;
   transition: 0.3s;
 }
-
 .container .footer-socials {
   display: flex;
   align-items: center;
 }
-
 .container .footer-socials * {
   margin: 0 10px;
 }
-
 .container .footer-socials h2 {
   font-size: 1.2rem;
   color: #0282F9;
@@ -295,10 +262,131 @@ h5 {
   height: 100px;
   background-color: #0282F9;
 }
-
-.single-comic-section .single-comic-box {
+.single-comic-section .single-comic-box-top {
   width: 60%;
   margin-inline: auto;
-  height: 500px;
+  position: relative;
 }
-
+.single-comic-section .single-comic-box-top .comic-picture-box {
+  aspect-ratio: 2/3;
+  border: 1px solid white;
+  width: 198px;
+  height: 300px;
+  position: absolute;
+  top: -370px;
+  left: 0;
+}
+.single-comic-section .single-comic-box-top .comic-picture-box img {
+  width: 100%;
+}
+.single-comic-section .single-comic-box-top .comic-info-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.single-comic-section .single-comic-box-top .comic-info-top .comic-info-top-left {
+  width: 70%;
+}
+.single-comic-section .single-comic-box-top .comic-info-top .comic-info-top-left .green-box {
+  background-color: #55BA59;
+  display: flex;
+  margin-top: 20px;
+}
+.single-comic-section .single-comic-box-top .comic-info-top .comic-info-top-left .green-box .green-box-left {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  border-right: 1px solid grey;
+  padding: 0 20px;
+}
+.single-comic-section .single-comic-box-top .comic-info-top .comic-info-top-left .green-box .green-box-left span {
+  color: white;
+  font-weight: 600;
+  padding: 15px 0;
+}
+.single-comic-section .single-comic-box-top .comic-info-top .comic-info-top-left .green-box .green-box-right {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.single-comic-section .single-comic-box-top .comic-info-top .comic-info-top-left .green-box .green-box-right span {
+  color: white;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.single-comic-section .single-comic-box-top .comic-info-top .comic-info-top-left .description-box {
+  margin-top: 20px;
+}
+.single-comic-section .single-comic-box-top .comic-info-top .comic-info-top-left .description-box p {
+  color: grey;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+.single-comic-section .single-comic-box-top .comic-info-top .comic-info-top-right {
+  width: 25%;
+}
+.single-comic-section .single-comic-box-bottom {
+  background-color: #F6F6F6;
+  padding-bottom: 100px;
+  border-top: 1px solid lightgrey;
+}
+.single-comic-section .single-comic-box-bottom .comic-details-box {
+  width: 60%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.single-comic-section .single-comic-box-bottom .comic-details-box .comic-details-left {
+  width: 45%;
+}
+.single-comic-section .single-comic-box-bottom .comic-details-box .comic-details-left .detail-1 {
+  width: 30%;
+  font-weight: 600;
+}
+.single-comic-section .single-comic-box-bottom .comic-details-box .comic-details-left .detail-2 {
+  width: 70%;
+}
+.single-comic-section .single-comic-box-bottom .comic-details-box .comic-details-left .comic-art {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  margin-top: 20px;
+  padding: 10px 0;
+  display: flex;
+}
+.single-comic-section .single-comic-box-bottom .comic-details-box .comic-details-left .comic-writers {
+  border-bottom: 1px solid lightgrey;
+  padding: 10px 0;
+  display: flex;
+}
+.single-comic-section .single-comic-box-bottom .comic-details-box .comic-details-right {
+  width: 45%;
+}
+.single-comic-section .single-comic-box-bottom .comic-details-box .comic-details-right .detail-1 {
+  width: 30%;
+  font-weight: 600;
+}
+.single-comic-section .single-comic-box-bottom .comic-details-box .comic-details-right .detail-2 {
+  width: 70%;
+}
+.single-comic-section .single-comic-box-bottom .comic-details-box .comic-details-right .comic-details-series {
+  padding: 10px 0;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  margin-top: 20px;
+  display: flex;
+}
+.single-comic-section .single-comic-box-bottom .comic-details-box .comic-details-right .comic-details-series .detail-2 {
+  color: #0282F9;
+}
+.single-comic-section .single-comic-box-bottom .comic-details-box .comic-details-right .comic-details-price {
+  padding: 10px 0;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+}
+.single-comic-section .single-comic-box-bottom .comic-details-box .comic-details-right .comic-details-date {
+  padding: 10px 0;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+}
