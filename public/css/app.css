@@ -291,3 +291,14 @@ h5 {
   color: #0282F9;
 }
 
+.single-comic-section .blue-line {
+  height: 100px;
+  background-color: #0282F9;
+}
+
+.single-comic-section .single-comic-box {
+  width: 60%;
+  margin-inline: auto;
+  height: 500px;
+}
+

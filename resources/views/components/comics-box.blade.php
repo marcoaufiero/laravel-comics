@@ -3,16 +3,15 @@
     <div class="container">
         <span class="series-label">CURRENT SERIES</span>
         <div class="comics-box">
-            @foreach ($comics as $elem)
+            @foreach ($comics as $index => $elem)
                 
                     <div class="card">
-                        <a href="/">
+                        <a href="/comics/{{$index}}">
                             <div class="img-box">
                                 <img src="{{$elem['thumb']}}" alt="">
                             </div>
                             <h5>{{strtoupper($elem['series'])}}</h5>
-                        </a>
-                        
+                        </a> 
                     </div>   
                            
             @endforeach
